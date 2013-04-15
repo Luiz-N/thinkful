@@ -1,0 +1,426 @@
+
+
+body {
+	background-image: url(imgs/retro_intro.png);
+	text-align: center;
+	padding: 0 5%;
+	position: relative;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 3.5em;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 3em;
+
+}
+
+hr {
+	margin: 0;
+	border-style: dashed;
+	border-radius: 2px;
+	border-color: rgba(222, 99, 23, .85);
+}
+
+.wrapper {
+	display: inline-block;
+	width: 1275px;
+	max-width: 1300px;
+	min-width: 1275px;
+	padding: 0 1em;
+	/*font-family:Helvetica,Arial,sans-serif;*/
+	font-family: "ubuntu", sans-serif;
+	/*color: #de6317;*/
+	border-left: 1em dashed rgba(222, 99, 23, .1);
+	border-right: 1em dashed rgba(222, 99, 23, .1);
+	box-sizing:border-box;
+
+
+
+}
+
+/*.wrapper * {
+	color: #de6317;
+	border: 2px dashed;
+	
+}*/
+
+header {
+	padding-right:  2.9%;
+	position: relative;
+	/*width: 100%;*/
+	font-size: 1em;	
+	/*text-align: center;*/
+	/*padding: 0 10%;*/
+}
+
+		header li {
+			text-decoration: none;
+			/*display: inline-block;*/
+			float: right;
+		}
+
+		header a {
+			color: rgba(222, 99, 23, 0.9);
+			display: inline-block;
+			text-decoration: none;
+			padding: 1em;
+			font-weight: 600;
+			border-right: 1px dashed rgba(222, 99, 23, 1);
+
+		}
+
+		header li a:hover {
+			background-color: rgba(25, 69, 89, 0.7);
+			/*opacity: .9;*/
+			/*text-shadow: .1em .1em .1em rgba(25, 69, 89, 0.6);*/
+			font-weight: 500;
+			/*border-left: 2px dashed rgba(222, 99, 23, 1.0);*/
+			/*border-right: 2px dashed rgba(222, 99, 23, 1.0);*/
+		}
+
+
+		header li #about{
+			border-left: 1px dashed rgba(222, 99, 23, 1);
+		}
+
+
+
+		#logo {
+			float: left;
+		}
+
+				#logo a {	
+					padding: 0;
+					width: inherit;
+					height: 3em;
+					text-align: left;
+					border-right: none;
+					opacity: .85;
+				}
+
+				#logo a img {
+					padding: .3em;
+					max-width: 80%;
+					height: auto;
+					
+					
+				}
+
+				#logo a:hover {
+					background-color: transparent;
+					opacity: 1.0;
+				}
+
+
+
+#hero {
+	position: relative;
+	color: #cacaca;
+	text-align: center;
+	width: 100%; 
+	/*height: 600px;*/
+	overflow: hidden;
+	background: url(imgs/biggest.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: .85;
+
+	/*height: 500px; */
+	
+}
+	/*#hero img {
+		width: 100%;
+		opacity: .95;
+		position: absolute;
+		left: 0;
+		z-index: -1;
+		box-shadow: 1px 1px 6px #888;
+	}*/
+
+	#hero > h1 {
+		padding: .3em 0;
+		display: inline-block;
+		float: left;
+		/*font-size: 500%;*/
+		/*display: inline-block;*/
+		width: 70%;
+		line-height: 1.2em;
+			color: rgba(222, 99, 23, 0.9);
+		
+
+		/*min-width: 90%;*/
+
+	}
+
+	#hero > span {
+		text-align: right;
+		font-size: 3em;
+		padding-top: 12%;
+		padding-bottom: 1%;
+		padding-right: .5%;
+		width: 20%;
+		float: right;
+		font-weight: 700;
+		color: rgba(25, 69, 89, 1.0);
+		font-weight: 700;
+		/*line-height: 1.2em;*/
+		/*position: absolute;*/
+	}
+
+	#hero hr {
+		width: 100%;
+		background: url(imgs/retro_intro.png);
+		height: 30px;
+		border: none;
+		/*border-style: none;*/
+	}
+
+	.info {
+		position: relative;
+		width: 43%;
+		overflow: visible;
+		text-align: left;
+		float: right;
+		margin-left: .5%;
+
+	}
+
+	.info ul {
+		/*display: inline-block;*/
+		/*position: absolute;*/
+		/*top: 2.5em;*/
+		width: 130%;
+		/*padding: 1em 0;*/
+		margin-left: -16%;
+		text-align: left;
+		line-height: 2.2em;
+		/*overflow: visible;*/
+		/*list-style-type: disc;*/
+		/*list-style-image: url(imgs/bullet.png);*/
+		/*list-style-position: outside;*/
+	}
+
+
+	.info h3 {
+		width: 120%;
+		padding: 8px 0;
+		margin-left: 10px;
+		color: #194559;
+		font-weight: 500;
+		/*letter-spacing: .01px;*/
+		/*border-bottom: 2px dashed rgba(222, 99, 23, .85);*/
+		/*padding-top: .2%*/
+		/*margin-left: -6px;*/
+		font-size: 2.8em;
+		/*position: relative;*/
+		/*margin-left: 1.5%;*/
+		/*float: left;*/
+		/*font-size: 2.8em;*/
+		/*opacity: 1;*/
+		/*background-color: rgba(25, 69, 89, .1);*/
+	}
+
+	.info ul span {
+		display: inline-block;
+		background: url(imgs/bullet.png);
+		width: 6px;
+		height: 6px;
+		margin-bottom: 4px;	
+		margin-right: 6px;
+	}
+
+	.info ul li {
+		/*float: left;*/
+		display: inline-block;
+		font-size: 1.5em;
+		margin-left: -20px;
+		/*background-color: green;*/
+	}
+
+	.info ul li a {
+		font-style: inherit;
+		text-decoration:none;
+		color: inherit;
+		border-bottom: 2px dashed rgba(222, 99, 23, 0.6);
+	}
+
+	.info ul li a:hover {
+		border-bottom: 2px dashed rgba(222, 99, 23, 1.0);
+
+	}
+
+	.sign {
+		float: left;
+		text-align: left;
+		/*font-size: 1.5em;*/
+		letter-spacing: -.1em;
+		padding-top: 8px;
+		padding-left: .5em;
+		/*display: inline-block;*/
+		width: 40%;
+		top: 50px;
+	}
+
+	.sign h3 {
+		width: 70%;
+		display: inline-block;
+		letter-spacing: -.03em;
+		color: #de6317;
+		/*float: right;*/
+	}
+
+	.sign p {
+		margin-top: 2em;
+	}
+
+	
+	.sign span {
+		display: inline-block;
+		background-color: #cacaca;
+		width: 75%;
+		height: 50px;
+		padding: 2px 1px;
+		text-align: left;
+		border: 1px inset #cacaca;
+		float: left;
+		background: url(imgs/retro_intro.png);
+		margin-bottom: 1em;
+		/*border-style: inset;*/
+		}
+
+	.sign span.button {
+		display: block;
+		float: left;
+		/*margin-right: 30px;*/
+		width: inherit;
+	}
+
+	.sign span #button:hover {
+		background-color: #194559;
+		/*border-color: #194559;*/
+		/*opacity: .8;*/
+		/*border-color: #194559;*/
+		border-style: none;
+	}
+
+	.sign input[type=email] {
+		width: 97.5%;
+		/*height: 54px;*/
+		/*float: left;*/
+		opacity: .8;
+		padding: 0 2px;
+		padding-top: 2px;
+		font-size: 2em;
+		color: #de6317;
+		font-family: "ubuntu", sans-serif;
+		border: 3px dashed #de6317;
+		outline: border-box;
+		background: none;
+		/*height: 56px;*/
+	}
+
+	.sign input[type=email]:focus {
+		/*border: 3px dashed #194559;*/
+		opacity: 1.0;
+		/*outline-width: 2px;*/
+		outline-style: none;
+		/*outline-color: rgba(25, 69, 89, 0.7);*/
+	}
+
+		::-webkit-input-placeholder {
+				opacity: .9;
+			   color: #de6317;
+			   background: url(imgs/retro_intro.png);
+			}
+
+
+	.sign input[type=submit] {
+		font-size: 2em;
+		color: #de6317;
+		
+		border: 3px dashed #de6317;
+		font-family: "ubuntu", sans-serif;
+		/*background: url(imgs/retro_intro.png);*/
+		/*background-origin: border-box;*/
+		/*background: none;*/
+		display: inline-block;
+		padding: 0 50px;
+		/*margin: 0 .5em;*/
+		height: 50px;
+		opacity: .85;
+		cursor: pointer;
+	}
+	
+	.sign input[type=submit]:hover {
+		/*background: none;*/
+		color: #194559;
+		border: 3px dashed rgba(25, 69, 89, 1.0);
+		background-color: #de6317;
+		opacity: .85;
+		/*font-weight: 500;*/
+		}
+
+
+section{
+	height: 900px;
+	/*background: none;*/
+	text-align: left;
+	padding-top: 5em;
+	color: rgba(25, 69, 89, 0.85);
+}
+
+section h2 {
+	/*color: #194559;*/
+	/*padding-top: 1em;*/
+	display: inline-block;
+	/*opacity: .85;*/
+	font-weight: 700;
+}
+
+article {
+	padding: 50px 40px;
+ 	
+	
+}
+
+
+
+	.teach div {
+ 		width: 65%;
+ 		display: inline-block;
+ 	}
+
+ 	.teach article h2 {
+ 		font-weight: 500;
+ 	}
+
+ 	.teach h3{
+ 		font-size: 2em;
+ 		display: inline-block;
+ 		/*opacity: .85;*/
+ 	}
+
+ 	.teach p {
+ 		display: inline;
+ 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
