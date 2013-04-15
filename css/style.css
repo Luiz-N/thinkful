@@ -26,7 +26,7 @@ hr {
 	margin: 0;
 	border-style: dashed;
 	border-radius: 2px;
-	border-color: rgba(222, 99, 23, .85);
+	border-color: rgba(222, 99, 23, .7);
 }
 
 .wrapper {
@@ -72,7 +72,7 @@ header {
 			display: inline-block;
 			text-decoration: none;
 			padding: 1em;
-			font-weight: 600;
+			font-weight: 500;
 			border-right: 1px dashed rgba(222, 99, 23, 1);
 
 		}
@@ -81,7 +81,7 @@ header {
 			background-color: rgba(25, 69, 89, 0.7);
 			/*opacity: .9;*/
 			/*text-shadow: .1em .1em .1em rgba(25, 69, 89, 0.6);*/
-			font-weight: 500;
+			/*font-weight: 500;*/
 			/*border-left: 2px dashed rgba(222, 99, 23, 1.0);*/
 			/*border-right: 2px dashed rgba(222, 99, 23, 1.0);*/
 		}
@@ -166,7 +166,7 @@ header {
 		font-size: 3.5em;
 		padding-top: 135px;
 		/*padding-bottom: 1%;*/
-		/*padding-right: .5%;*/
+		padding-right: 10px;
 		/*margin-bottom: -200px;*/
 		width: 30%;
 		float: right;
