@@ -53,7 +53,7 @@ hr {
 }*/
 
 header {
-	padding-right:  2.9%;
+	padding-right:  2.5%;
 	position: relative;
 	/*width: 100%;*/
 	font-size: 1em;	
@@ -126,9 +126,9 @@ header {
 	color: #cacaca;
 	text-align: center;
 	width: 100%; 
-	/*height: 600px;*/
+	height: 800px;
 	overflow: hidden;
-	background: url(imgs/biggest.png);
+	background: url(imgs/biggest2.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	opacity: .85;
@@ -146,15 +146,16 @@ header {
 	}*/
 
 	#hero > h1 {
+		margin-left: 70px;
 		padding: .3em 0;
 		display: inline-block;
 		float: left;
 		/*font-size: 500%;*/
 		/*display: inline-block;*/
-		width: 70%;
+		width: 58%;
 		line-height: 1.2em;
-			color: rgba(222, 99, 23, 0.9);
-		
+		/*color: rgba(222, 99, 23, 0.9);*/
+		color: #cacaca;
 
 		/*min-width: 90%;*/
 
@@ -162,17 +163,32 @@ header {
 
 	#hero > span {
 		text-align: right;
-		font-size: 3em;
-		padding-top: 12%;
-		padding-bottom: 1%;
-		padding-right: .5%;
-		width: 20%;
+		font-size: 3.5em;
+		padding-top: 135px;
+		/*padding-bottom: 1%;*/
+		/*padding-right: .5%;*/
+		/*margin-bottom: -200px;*/
+		width: 30%;
 		float: right;
 		font-weight: 700;
-		color: rgba(25, 69, 89, 1.0);
+		/*color: rgba(25, 69, 89, 1.0);*/
+		color: #cacaca;
+
 		font-weight: 700;
 		/*line-height: 1.2em;*/
 		/*position: absolute;*/
+	}
+
+	#hero > h2 {
+		font-weight: 700;
+		float: right;
+		/*color: rgba(25, 69, 89, 1.0);*/
+		color: #cacaca;
+
+		text-align: right;
+		padding-right: 10px;
+		/*margin-top: 200px;*/
+		width: 30%;
 	}
 
 	#hero hr {
@@ -199,6 +215,7 @@ header {
 		/*top: 2.5em;*/
 		width: 130%;
 		/*padding: 1em 0;*/
+		padding-top: 1.5em;
 		margin-left: -16%;
 		text-align: left;
 		line-height: 2.2em;
@@ -265,12 +282,12 @@ header {
 		padding-top: 8px;
 		padding-left: .5em;
 		/*display: inline-block;*/
-		width: 40%;
+		width: 50%;
 		top: 50px;
 	}
 
 	.sign h3 {
-		width: 70%;
+		width: 100%;
 		display: inline-block;
 		letter-spacing: -.03em;
 		color: #de6317;
@@ -285,7 +302,7 @@ header {
 	.sign span {
 		display: inline-block;
 		background-color: #cacaca;
-		width: 75%;
+		width: 70%;
 		height: 50px;
 		padding: 2px 1px;
 		text-align: left;
@@ -373,7 +390,7 @@ section{
 	height: 900px;
 	/*background: none;*/
 	text-align: left;
-	padding-top: 5em;
+	padding-top: 1em;
 	color: rgba(25, 69, 89, 0.85);
 }
 
