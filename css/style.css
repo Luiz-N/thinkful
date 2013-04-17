@@ -31,9 +31,9 @@ hr {
 
 .wrapper {
 	display: inline-block;
-	width: 1275px;
+	/*width: 1275px;*/
 	max-width: 1300px;
-	min-width: 1275px;
+	/*min-width: 1275px;*/
 	padding: 0 1em;
 	/*font-family:Helvetica,Arial,sans-serif;*/
 	font-family: "ubuntu", sans-serif;
@@ -78,7 +78,7 @@ header {
 		}
 
 		header li a:hover {
-			background-color: rgba(25, 69, 89, 0.7);
+			background-color: rgba(25, 69, 89, 0.8);
 			/*opacity: .9;*/
 			/*text-shadow: .1em .1em .1em rgba(25, 69, 89, 0.6);*/
 			/*font-weight: 500;*/
@@ -103,7 +103,7 @@ header {
 					height: 3em;
 					text-align: left;
 					border-right: none;
-					opacity: .85;
+					opacity: .9;
 				}
 
 				#logo a img {
@@ -131,7 +131,7 @@ header {
 	background: url(imgs/biggest2.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	opacity: .85;
+	opacity: .9;
 
 	/*height: 500px; */
 	
@@ -233,7 +233,7 @@ header {
 		color: #194559;
 		font-weight: 500;
 		/*letter-spacing: .01px;*/
-		/*border-bottom: 2px dashed rgba(222, 99, 23, .85);*/
+		/*border-bottom: 2px dashed rgba(222, 99, 23, .9);*/
 		/*padding-top: .2%*/
 		/*margin-left: -6px;*/
 		font-size: 2.8em;
@@ -256,7 +256,7 @@ header {
 
 	.info ul li {
 		/*float: left;*/
-		display: inline-block;
+		display: block;
 		font-size: 1.5em;
 		margin-left: -20px;
 		/*background-color: green;*/
@@ -266,11 +266,13 @@ header {
 		font-style: inherit;
 		text-decoration:none;
 		color: inherit;
-		border-bottom: 2px dashed rgba(222, 99, 23, 0.6);
+		border-bottom: 2px dashed rgba(25, 69, 89, .7);
 	}
 
 	.info ul li a:hover {
-		border-bottom: 2px dashed rgba(222, 99, 23, 1.0);
+		border-bottom: 2px dashed rgba(25, 69, 89, .9);
+		color: #194559;
+		opacity: .9;
 
 	}
 
@@ -332,30 +334,31 @@ header {
 		width: 97.5%;
 		/*height: 54px;*/
 		/*float: left;*/
-		opacity: .8;
-		padding: 0 2px;
-		padding-top: 2px;
+		opacity: .9;
+		margin-left: 1px;
+		padding-top: 3px;
 		font-size: 2em;
 		color: #de6317;
 		font-family: "ubuntu", sans-serif;
 		border: 3px dashed #de6317;
 		outline: border-box;
-		background: none;
+		background: url(imgs/retro_intro.png);
+		
 		/*height: 56px;*/
 	}
 
 	.sign input[type=email]:focus {
-		/*border: 3px dashed #194559;*/
-		opacity: 1.0;
+		background: none;
+		opacity: .9;
 		/*outline-width: 2px;*/
 		outline-style: none;
+		background-color: rgba(25, 69, 89, 1.0);
 		/*outline-color: rgba(25, 69, 89, 0.7);*/
 	}
 
 		::-webkit-input-placeholder {
 				opacity: .9;
 			   color: #de6317;
-			   background: url(imgs/retro_intro.png);
 			}
 
 
@@ -372,16 +375,16 @@ header {
 		padding: 0 50px;
 		/*margin: 0 .5em;*/
 		height: 50px;
-		opacity: .85;
+		opacity: .9;
 		cursor: pointer;
 	}
 	
 	.sign input[type=submit]:hover {
 		/*background: none;*/
-		color: #194559;
-		border: 3px dashed rgba(25, 69, 89, 1.0);
-		background-color: #de6317;
-		opacity: .85;
+		/*color: #194559;*/
+		/*border: 3px dashed rgba(25, 69, 89, 1.0);*/
+		background-color: rgba(25, 69, 89, 1.0);
+		/*opacity: .9;*/
 		/*font-weight: 500;*/
 		}
 
@@ -391,14 +394,14 @@ section{
 	/*background: none;*/
 	text-align: left;
 	padding-top: 1em;
-	color: rgba(25, 69, 89, 0.85);
+	color: rgba(25, 69, 89, 0.9);
 }
 
 section h2 {
 	/*color: #194559;*/
 	/*padding-top: 1em;*/
 	display: inline-block;
-	/*opacity: .85;*/
+	/*opacity: .9;*/
 	font-weight: 700;
 }
 
@@ -422,7 +425,7 @@ article {
  	.teach h3{
  		font-size: 2em;
  		display: inline-block;
- 		/*opacity: .85;*/
+ 		/*opacity: .9;*/
  	}
 
  	.teach p {
